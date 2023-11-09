@@ -11,11 +11,11 @@ $( document ).ready(function() {
     
     let email = $('#email').val()
      
-    console.log(name);
+    let userName = $('#userName').val()
        
     let confirmation; 
     
-    confirmation = "Thank you, " + name + " for your interest! You will hear from us via the email (" + email + ") you provided soon!"
+    confirmation = "Thank you, " + name + " (" + userName + ") for your interest! You will hear from us via your email: " + email + " soon!"
     
     $('#confirmMsg').text(confirmation);
     
